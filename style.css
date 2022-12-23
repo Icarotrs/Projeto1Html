@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header {
+    height: 200px;
+    padding: 20px 0;
+
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.logo {
+    width: 50%;
+}
+
+.menu{
+    padding-top: 15px;
+    width: 50%;
+    text-align: right;
+}
+
+.menu a {
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section.sobre {
+    height: calc(100% - 200px);
+    position: relative; 
+}
+
+.texto-sobre h1 {
+    font-size: 50px;
+}
+
+.texto-sobre p {
+    margin: 20px 0;
+    font-size: 14px;
+    font-weight: bold;
+    max-width: 750px;
+}
+
+.texto-sobre button {
+    border: 0;
+    background-color: #017143;
+    height: 35px;
+    width: 110px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.copao{
+    position: absolute;
+    background-color: #017143;
+    height: 1000px;
+    width: 1100px;
+    border-radius: 50%;
+    right: -500px;    
+}
+.social-media{
+    position: absolute;
+    top: 150px;
+    right: 520px;
+}
+.social-media img{
+    display: block;
+    width: 30px;
+    margin: 20px 0;
+
+}
+#face{
+    right: 200px;
+    width: 19px;
+}
